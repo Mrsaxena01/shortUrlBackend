@@ -10,7 +10,7 @@ import {redirectToOriginalUrl} from "./controllers/url.controller.js";
 const app = express();
 
 app.use(cors({
-  origin:"https://trimlinkshort.vercel.app/"
+  origin:"https://trimlinkshort.vercel.app"
 }));
 app.use(express.json());
 app.use(morgan("dev"));
