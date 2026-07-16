@@ -26,7 +26,6 @@ export const shortenUrl = async (req, res) => {
         });
 
     } catch (error) {
-
         return res.status(500).json({
             success: false,
             message: error.message
